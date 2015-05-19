@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55FA5E291B0B910B00511649 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FA5E281B0B910B00511649 /* DetailViewController.swift */; };
+		AFAAEC131AF9B2560036223F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAAEC121AF9B2560036223F /* AppDelegate.swift */; };
+		AFAAEC151AF9B2560036223F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAAEC141AF9B2560036223F /* ViewController.swift */; };
+		AFAAEC181AF9B2560036223F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFAAEC161AF9B2560036223F /* Main.storyboard */; };
+		AFAAEC1A1AF9B2560036223F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFAAEC191AF9B2560036223F /* Images.xcassets */; };
+		AFAAEC1D1AF9B2560036223F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFAAEC1B1AF9B2560036223F /* LaunchScreen.xib */; };
+		AFAAEC291AF9B2560036223F /* FunWithRealmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAAEC281AF9B2560036223F /* FunWithRealmTests.swift */; };
+		AFAAEC491AF9B5D90036223F /* RESTRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAAEC481AF9B5D90036223F /* RESTRequestManager.swift */; };
+		AFAAEC4D1AF9B6C10036223F /* Miscellaneous.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAAEC4C1AF9B6C10036223F /* Miscellaneous.swift */; };
+		AFAAEC7E1AF9B9ED0036223F /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAAEC6C1AF9B9EC0036223F /* AFHTTPRequestOperation.m */; };
+		AFAAEC7F1AF9B9ED0036223F /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAAEC6E1AF9B9EC0036223F /* AFHTTPRequestOperationManager.m */; };
+		AFAAEC801AF9B9ED0036223F /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAAEC701AF9B9EC0036223F /* AFHTTPSessionManager.m */; };
+		AFAAEC811AF9B9ED0036223F /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAAEC731AF9B9EC0036223F /* AFNetworkReachabilityManager.m */; };
+		AFAAEC821AF9B9ED0036223F /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAAEC751AF9B9EC0036223F /* AFSecurityPolicy.m */; };
+		AFAAEC831AF9B9ED0036223F /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAAEC771AF9B9EC0036223F /* AFURLConnectionOperation.m */; };
+		AFAAEC841AF9B9ED0036223F /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAAEC791AF9B9EC0036223F /* AFURLRequestSerialization.m */; };
+		AFAAEC851AF9B9ED0036223F /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAAEC7B1AF9B9ED0036223F /* AFURLResponseSerialization.m */; };
+		AFAAEC861AF9B9ED0036223F /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAAEC7D1AF9B9ED0036223F /* AFURLSessionManager.m */; };
+		AFAAEC891AF9BA420036223F /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAAEC881AF9BA420036223F /* Reachability.m */; };
+		AFAAEC921AF9C3920036223F /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFAAEC911AF9C3920036223F /* Realm.framework */; };
+		AFAAEC9A1AFB12D70036223F /* Forecast.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAAEC991AFB12D70036223F /* Forecast.m */; };
+		AFAAECA31AFB13840036223F /* Temperature.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAAECA21AFB13840036223F /* Temperature.m */; };
+		AFAAECA51AFB171B0036223F /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AFAAECA41AFB171B0036223F /* libc++.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFAAEC231AF9B2560036223F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFAAEC051AF9B2560036223F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFAAEC0C1AF9B2560036223F;
+			remoteInfo = FunWithRealm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AFAAEC901AF9C3070036223F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		55FA5E281B0B910B00511649 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		AFAAEC0D1AF9B2560036223F /* FunWithRealm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunWithRealm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFAAEC111AF9B2560036223F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFAAEC121AF9B2560036223F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFAAEC141AF9B2560036223F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AFAAEC171AF9B2560036223F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFAAEC191AF9B2560036223F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AFAAEC1C1AF9B2560036223F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AFAAEC221AF9B2560036223F /* FunWithRealmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunWithRealmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFAAEC271AF9B2560036223F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFAAEC281AF9B2560036223F /* FunWithRealmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunWithRealmTests.swift; sourceTree = "<group>"; };
+		AFAAEC391AF9B4B80036223F /* FunWithRealm-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FunWithRealm-Bridging-Header.h"; sourceTree = "<group>"; };
+		AFAAEC481AF9B5D90036223F /* RESTRequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RESTRequestManager.swift; sourceTree = "<group>"; };
+		AFAAEC4C1AF9B6C10036223F /* Miscellaneous.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Miscellaneous.swift; sourceTree = "<group>"; };
+		AFAAEC6B1AF9B9EC0036223F /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		AFAAEC6C1AF9B9EC0036223F /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		AFAAEC6D1AF9B9EC0036223F /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		AFAAEC6E1AF9B9EC0036223F /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		AFAAEC6F1AF9B9EC0036223F /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		AFAAEC701AF9B9EC0036223F /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		AFAAEC711AF9B9EC0036223F /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		AFAAEC721AF9B9EC0036223F /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		AFAAEC731AF9B9EC0036223F /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		AFAAEC741AF9B9EC0036223F /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		AFAAEC751AF9B9EC0036223F /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		AFAAEC761AF9B9EC0036223F /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		AFAAEC771AF9B9EC0036223F /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		AFAAEC781AF9B9EC0036223F /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		AFAAEC791AF9B9EC0036223F /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		AFAAEC7A1AF9B9EC0036223F /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		AFAAEC7B1AF9B9ED0036223F /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		AFAAEC7C1AF9B9ED0036223F /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		AFAAEC7D1AF9B9ED0036223F /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		AFAAEC871AF9BA420036223F /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = ../../../../Compassion/Projects/ChildPhoto/workingCopy/ChildPhotoMaster/Source_iOS/ChildPhoto/Reachability.h; sourceTree = "<group>"; };
+		AFAAEC881AF9BA420036223F /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = ../../../../Compassion/Projects/ChildPhoto/workingCopy/ChildPhotoMaster/Source_iOS/ChildPhoto/Reachability.m; sourceTree = "<group>"; };
+		AFAAEC911AF9C3920036223F /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		AFAAEC981AFB12D70036223F /* Forecast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Forecast.h; sourceTree = "<group>"; };
+		AFAAEC991AFB12D70036223F /* Forecast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Forecast.m; sourceTree = "<group>"; };
+		AFAAECA11AFB13840036223F /* Temperature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Temperature.h; sourceTree = "<group>"; };
+		AFAAECA21AFB13840036223F /* Temperature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Temperature.m; sourceTree = "<group>"; };
+		AFAAECA41AFB171B0036223F /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFAAEC0A1AF9B2560036223F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFAAECA51AFB171B0036223F /* libc++.dylib in Frameworks */,
+				AFAAEC921AF9C3920036223F /* Realm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFAAEC1F1AF9B2560036223F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFAAEC041AF9B2560036223F = {
+			isa = PBXGroup;
+			children = (
+				AFAAECA41AFB171B0036223F /* libc++.dylib */,
+				AFAAEC0F1AF9B2560036223F /* FunWithRealm */,
+				AFAAEC251AF9B2560036223F /* FunWithRealmTests */,
+				AFAAEC0E1AF9B2560036223F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFAAEC0E1AF9B2560036223F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFAAEC0D1AF9B2560036223F /* FunWithRealm.app */,
+				AFAAEC221AF9B2560036223F /* FunWithRealmTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFAAEC0F1AF9B2560036223F /* FunWithRealm */ = {
+			isa = PBXGroup;
+			children = (
+				AFAAEC121AF9B2560036223F /* AppDelegate.swift */,
+				AFAAEC141AF9B2560036223F /* ViewController.swift */,
+				55FA5E281B0B910B00511649 /* DetailViewController.swift */,
+				AFAAEC161AF9B2560036223F /* Main.storyboard */,
+				AFAAEC1B1AF9B2560036223F /* LaunchScreen.xib */,
+				AFAAEC4C1AF9B6C10036223F /* Miscellaneous.swift */,
+				AFAAEC931AF9C4BA0036223F /* Data */,
+				AFAAEC471AF9B5CC0036223F /* Connections */,
+				AFAAEC3C1AF9B4D20036223F /* Libraries */,
+				AFAAEC101AF9B2560036223F /* Supporting Files */,
+			);
+			path = FunWithRealm;
+			sourceTree = "<group>";
+		};
+		AFAAEC101AF9B2560036223F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFAAEC391AF9B4B80036223F /* FunWithRealm-Bridging-Header.h */,
+				AFAAEC191AF9B2560036223F /* Images.xcassets */,
+				AFAAEC111AF9B2560036223F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFAAEC251AF9B2560036223F /* FunWithRealmTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFAAEC281AF9B2560036223F /* FunWithRealmTests.swift */,
+				AFAAEC261AF9B2560036223F /* Supporting Files */,
+			);
+			path = FunWithRealmTests;
+			sourceTree = "<group>";
+		};
+		AFAAEC261AF9B2560036223F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFAAEC271AF9B2560036223F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFAAEC3C1AF9B4D20036223F /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				AFAAEC911AF9C3920036223F /* Realm.framework */,
+				AFAAEC6A1AF9B9EC0036223F /* AFNetworking */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		AFAAEC471AF9B5CC0036223F /* Connections */ = {
+			isa = PBXGroup;
+			children = (
+				AFAAEC481AF9B5D90036223F /* RESTRequestManager.swift */,
+				AFAAEC871AF9BA420036223F /* Reachability.h */,
+				AFAAEC881AF9BA420036223F /* Reachability.m */,
+			);
+			name = Connections;
+			sourceTree = "<group>";
+		};
+		AFAAEC6A1AF9B9EC0036223F /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				AFAAEC6B1AF9B9EC0036223F /* AFHTTPRequestOperation.h */,
+				AFAAEC6C1AF9B9EC0036223F /* AFHTTPRequestOperation.m */,
+				AFAAEC6D1AF9B9EC0036223F /* AFHTTPRequestOperationManager.h */,
+				AFAAEC6E1AF9B9EC0036223F /* AFHTTPRequestOperationManager.m */,
+				AFAAEC6F1AF9B9EC0036223F /* AFHTTPSessionManager.h */,
+				AFAAEC701AF9B9EC0036223F /* AFHTTPSessionManager.m */,
+				AFAAEC711AF9B9EC0036223F /* AFNetworking.h */,
+				AFAAEC721AF9B9EC0036223F /* AFNetworkReachabilityManager.h */,
+				AFAAEC731AF9B9EC0036223F /* AFNetworkReachabilityManager.m */,
+				AFAAEC741AF9B9EC0036223F /* AFSecurityPolicy.h */,
+				AFAAEC751AF9B9EC0036223F /* AFSecurityPolicy.m */,
+				AFAAEC761AF9B9EC0036223F /* AFURLConnectionOperation.h */,
+				AFAAEC771AF9B9EC0036223F /* AFURLConnectionOperation.m */,
+				AFAAEC781AF9B9EC0036223F /* AFURLRequestSerialization.h */,
+				AFAAEC791AF9B9EC0036223F /* AFURLRequestSerialization.m */,
+				AFAAEC7A1AF9B9EC0036223F /* AFURLResponseSerialization.h */,
+				AFAAEC7B1AF9B9ED0036223F /* AFURLResponseSerialization.m */,
+				AFAAEC7C1AF9B9ED0036223F /* AFURLSessionManager.h */,
+				AFAAEC7D1AF9B9ED0036223F /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		AFAAEC931AF9C4BA0036223F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				AFAAEC981AFB12D70036223F /* Forecast.h */,
+				AFAAEC991AFB12D70036223F /* Forecast.m */,
+				AFAAECA11AFB13840036223F /* Temperature.h */,
+				AFAAECA21AFB13840036223F /* Temperature.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFAAEC0C1AF9B2560036223F /* FunWithRealm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFAAEC2C1AF9B2560036223F /* Build configuration list for PBXNativeTarget "FunWithRealm" */;
+			buildPhases = (
+				AFAAEC091AF9B2560036223F /* Sources */,
+				AFAAEC0A1AF9B2560036223F /* Frameworks */,
+				AFAAEC0B1AF9B2560036223F /* Resources */,
+				AFAAEC901AF9C3070036223F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FunWithRealm;
+			productName = FunWithRealm;
+			productReference = AFAAEC0D1AF9B2560036223F /* FunWithRealm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFAAEC211AF9B2560036223F /* FunWithRealmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFAAEC2F1AF9B2560036223F /* Build configuration list for PBXNativeTarget "FunWithRealmTests" */;
+			buildPhases = (
+				AFAAEC1E1AF9B2560036223F /* Sources */,
+				AFAAEC1F1AF9B2560036223F /* Frameworks */,
+				AFAAEC201AF9B2560036223F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFAAEC241AF9B2560036223F /* PBXTargetDependency */,
+			);
+			name = FunWithRealmTests;
+			productName = FunWithRealmTests;
+			productReference = AFAAEC221AF9B2560036223F /* FunWithRealmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFAAEC051AF9B2560036223F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Eric Rowe";
+				TargetAttributes = {
+					AFAAEC0C1AF9B2560036223F = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					AFAAEC211AF9B2560036223F = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = AFAAEC0C1AF9B2560036223F;
+					};
+				};
+			};
+			buildConfigurationList = AFAAEC081AF9B2560036223F /* Build configuration list for PBXProject "FunWithRealm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFAAEC041AF9B2560036223F;
+			productRefGroup = AFAAEC0E1AF9B2560036223F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFAAEC0C1AF9B2560036223F /* FunWithRealm */,
+				AFAAEC211AF9B2560036223F /* FunWithRealmTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFAAEC0B1AF9B2560036223F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFAAEC181AF9B2560036223F /* Main.storyboard in Resources */,
+				AFAAEC1D1AF9B2560036223F /* LaunchScreen.xib in Resources */,
+				AFAAEC1A1AF9B2560036223F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFAAEC201AF9B2560036223F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFAAEC091AF9B2560036223F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFAAEC7F1AF9B9ED0036223F /* AFHTTPRequestOperationManager.m in Sources */,
+				55FA5E291B0B910B00511649 /* DetailViewController.swift in Sources */,
+				AFAAEC831AF9B9ED0036223F /* AFURLConnectionOperation.m in Sources */,
+				AFAAECA31AFB13840036223F /* Temperature.m in Sources */,
+				AFAAEC151AF9B2560036223F /* ViewController.swift in Sources */,
+				AFAAEC841AF9B9ED0036223F /* AFURLRequestSerialization.m in Sources */,
+				AFAAEC801AF9B9ED0036223F /* AFHTTPSessionManager.m in Sources */,
+				AFAAEC7E1AF9B9ED0036223F /* AFHTTPRequestOperation.m in Sources */,
+				AFAAEC4D1AF9B6C10036223F /* Miscellaneous.swift in Sources */,
+				AFAAEC821AF9B9ED0036223F /* AFSecurityPolicy.m in Sources */,
+				AFAAEC811AF9B9ED0036223F /* AFNetworkReachabilityManager.m in Sources */,
+				AFAAEC861AF9B9ED0036223F /* AFURLSessionManager.m in Sources */,
+				AFAAEC891AF9BA420036223F /* Reachability.m in Sources */,
+				AFAAEC131AF9B2560036223F /* AppDelegate.swift in Sources */,
+				AFAAEC491AF9B5D90036223F /* RESTRequestManager.swift in Sources */,
+				AFAAEC851AF9B9ED0036223F /* AFURLResponseSerialization.m in Sources */,
+				AFAAEC9A1AFB12D70036223F /* Forecast.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFAAEC1E1AF9B2560036223F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFAAEC291AF9B2560036223F /* FunWithRealmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFAAEC241AF9B2560036223F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFAAEC0C1AF9B2560036223F /* FunWithRealm */;
+			targetProxy = AFAAEC231AF9B2560036223F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFAAEC161AF9B2560036223F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFAAEC171AF9B2560036223F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFAAEC1B1AF9B2560036223F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFAAEC1C1AF9B2560036223F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFAAEC2A1AF9B2560036223F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFAAEC2B1AF9B2560036223F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFAAEC2D1AF9B2560036223F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FunWithRealm",
+				);
+				INFOPLIST_FILE = FunWithRealm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FunWithRealm/FunWithRealm-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFAAEC2E1AF9B2560036223F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FunWithRealm",
+				);
+				INFOPLIST_FILE = FunWithRealm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FunWithRealm/FunWithRealm-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		AFAAEC301AF9B2560036223F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FunWithRealmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunWithRealm.app/FunWithRealm";
+			};
+			name = Debug;
+		};
+		AFAAEC311AF9B2560036223F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FunWithRealmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunWithRealm.app/FunWithRealm";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFAAEC081AF9B2560036223F /* Build configuration list for PBXProject "FunWithRealm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFAAEC2A1AF9B2560036223F /* Debug */,
+				AFAAEC2B1AF9B2560036223F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFAAEC2C1AF9B2560036223F /* Build configuration list for PBXNativeTarget "FunWithRealm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFAAEC2D1AF9B2560036223F /* Debug */,
+				AFAAEC2E1AF9B2560036223F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFAAEC2F1AF9B2560036223F /* Build configuration list for PBXNativeTarget "FunWithRealmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFAAEC301AF9B2560036223F /* Debug */,
+				AFAAEC311AF9B2560036223F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFAAEC051AF9B2560036223F /* Project object */;
+}
