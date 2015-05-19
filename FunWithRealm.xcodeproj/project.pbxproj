@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		55FA5E291B0B910B00511649 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FA5E281B0B910B00511649 /* DetailViewController.swift */; };
+		55FA5E3A1B0BB74900511649 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FA5E391B0BB74900511649 /* Reachability.m */; };
 		AFAAEC131AF9B2560036223F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAAEC121AF9B2560036223F /* AppDelegate.swift */; };
 		AFAAEC151AF9B2560036223F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAAEC141AF9B2560036223F /* ViewController.swift */; };
 		AFAAEC181AF9B2560036223F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFAAEC161AF9B2560036223F /* Main.storyboard */; };
@@ -25,7 +26,6 @@
 		AFAAEC841AF9B9ED0036223F /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAAEC791AF9B9EC0036223F /* AFURLRequestSerialization.m */; };
 		AFAAEC851AF9B9ED0036223F /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAAEC7B1AF9B9ED0036223F /* AFURLResponseSerialization.m */; };
 		AFAAEC861AF9B9ED0036223F /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAAEC7D1AF9B9ED0036223F /* AFURLSessionManager.m */; };
-		AFAAEC891AF9BA420036223F /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAAEC881AF9BA420036223F /* Reachability.m */; };
 		AFAAEC921AF9C3920036223F /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFAAEC911AF9C3920036223F /* Realm.framework */; };
 		AFAAEC9A1AFB12D70036223F /* Forecast.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAAEC991AFB12D70036223F /* Forecast.m */; };
 		AFAAECA31AFB13840036223F /* Temperature.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAAECA21AFB13840036223F /* Temperature.m */; };
@@ -57,6 +57,8 @@
 
 /* Begin PBXFileReference section */
 		55FA5E281B0B910B00511649 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		55FA5E381B0BB74900511649 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		55FA5E391B0BB74900511649 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		AFAAEC0D1AF9B2560036223F /* FunWithRealm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunWithRealm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFAAEC111AF9B2560036223F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFAAEC121AF9B2560036223F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -89,8 +91,6 @@
 		AFAAEC7B1AF9B9ED0036223F /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		AFAAEC7C1AF9B9ED0036223F /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
 		AFAAEC7D1AF9B9ED0036223F /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
-		AFAAEC871AF9BA420036223F /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = ../../../../Compassion/Projects/ChildPhoto/workingCopy/ChildPhotoMaster/Source_iOS/ChildPhoto/Reachability.h; sourceTree = "<group>"; };
-		AFAAEC881AF9BA420036223F /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = ../../../../Compassion/Projects/ChildPhoto/workingCopy/ChildPhotoMaster/Source_iOS/ChildPhoto/Reachability.m; sourceTree = "<group>"; };
 		AFAAEC911AF9C3920036223F /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
 		AFAAEC981AFB12D70036223F /* Forecast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Forecast.h; sourceTree = "<group>"; };
 		AFAAEC991AFB12D70036223F /* Forecast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Forecast.m; sourceTree = "<group>"; };
@@ -195,8 +195,8 @@
 			isa = PBXGroup;
 			children = (
 				AFAAEC481AF9B5D90036223F /* RESTRequestManager.swift */,
-				AFAAEC871AF9BA420036223F /* Reachability.h */,
-				AFAAEC881AF9BA420036223F /* Reachability.m */,
+				55FA5E381B0BB74900511649 /* Reachability.h */,
+				55FA5E391B0BB74900511649 /* Reachability.m */,
 			);
 			name = Connections;
 			sourceTree = "<group>";
@@ -288,6 +288,7 @@
 				TargetAttributes = {
 					AFAAEC0C1AF9B2560036223F = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = SSYSQ32EDF;
 					};
 					AFAAEC211AF9B2560036223F = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -351,10 +352,10 @@
 				AFAAEC821AF9B9ED0036223F /* AFSecurityPolicy.m in Sources */,
 				AFAAEC811AF9B9ED0036223F /* AFNetworkReachabilityManager.m in Sources */,
 				AFAAEC861AF9B9ED0036223F /* AFURLSessionManager.m in Sources */,
-				AFAAEC891AF9BA420036223F /* Reachability.m in Sources */,
 				AFAAEC131AF9B2560036223F /* AppDelegate.swift in Sources */,
 				AFAAEC491AF9B5D90036223F /* RESTRequestManager.swift in Sources */,
 				AFAAEC851AF9B9ED0036223F /* AFURLResponseSerialization.m in Sources */,
+				55FA5E3A1B0BB74900511649 /* Reachability.m in Sources */,
 				AFAAEC9A1AFB12D70036223F /* Forecast.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
